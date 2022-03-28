@@ -1,0 +1,136 @@
+>> day41 -  22/03/28
+
+ ==> 
+ > 31일(목) 더존 윤부장님 방문 예정 PM 3~ 6시 
+
+======================================
+>> day40 -  22/03/25
+
+ > 발표 순서 & 발표자 :  3 >  4  > 2  >  5 >    1
+  👏 발표자 -- 
+  1팀 : 이동훈
+  2팀 : 전팀원들! 
+  3팀 : 엄채린
+  4팀 : 전팀원들!
+  5팀 : 이한용
+
+  👍 발표 순서 :  엄채린 > 팀전체 > 팀전체 > 이한용 > 이동훈 
+
+
+ > 개발환경 구성 
+  - 웹브라우저 : Chrome 
+  - 작업툴 : Visual Studio Code
+  - Node.js  LTS  Version
+  - Angularjs  or React  or Vue.js
+
+  -- Vue.js Dev Tools
+     https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
+    
+   -- React Dev Tools
+     https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=ko
+
+   -- AngluarJS Dev Tools 
+     https://chrome.google.com/webstore/detail/angular-devtools/ienfalfjdbdpebioblfackkekamfmbnh
+
+
+ > npm 설치  및 셋팅 
+    https://nodejs.org/en/
+
+ > VSCode 다운로드
+  https://code.visualstudio.com/
+
+  -- VSCode 플러그인 추가
+    . 언어 : korean
+    .색 테마 : Night Owl  > https://marketplace.visualstudio.com/items?itemName=sdras.night-owl
+    .파일 아이콘 테마 : Material Icon Theme > https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+    .앵귤러 코드 스니펫 : angluarjs VSCode Snippets > https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets
+    .문법 검사 : ESLint, TSLint > https://marketplace.visualstudio.com/items?itemName=eg2.tslint
+    .실습 환경 보조 : Live Server ? https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+    
+   .기타
+        Prettier, Project Manager, auto rename tag, Auto Close Tag, GitLens, Atom Keymap, Jetbrains IDE Keymap 등
+
+     > https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+     > https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager
+     > https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag
+     > https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+     > https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings
+     > https://marketplace.visualstudio.com/items?itemName=isudox.vscode-jetbrains-keybindings
+
+ > angular 기본 문법 및 API
+   https://angularjs.org/  <--- angularjs  version 1.x 
+   cf) https://angular.io/  <---- angular  version 2.x 이상~~~
+
+   https://docs.angularjs.org/api
+   https://docs.angularjs.org/guide/concepts
+   https://angular.io/guide/devtools
+
+ >  Vue  vs  React vs Angular 비교 및 간단 예제 파일
+
+ > 브라우저 동작 원리
+  https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#The_browsers_we_will_talk_about
+
+ > Babel 공식 site
+  https://babeljs.io
+
+ > Angular와 AngularJS는 무엇인가?
+
+ > angluarjs 기본 문법
+
+  https://www.w3schools.com/angular/default.asp
+
+ - 주요개념
+Model(모델)
+- 단순 자바스크립트 객체로 된 데이터
+- 보통 JSON으로 표현되는 애플리케이션의 특정한 데이터 구조를 말합니다.
+- json 데이터를 jQuery의 $.ajax 메서드를 래핑한 Angular의 $http 를 통해 XHR(XMLHttp Request)로 서버에서 가져오거나 페이지를 로딩할 때 코드에서 직접 (데이터베이스에서) 읽어오도록 할 수 있다. 그리고 모델을 변경한 다음 다시 반영할 수도 있습니다.
+View(뷰)
+- 템플릿과 모델이 합쳐져서 보여지는 화면 (Dom구조로 되어있습니다.)
+- MVC 프레임워크를 사용한다면 뷰를 갱신할 모델 데이터를 내려받은 뒤 HTML에서 해당 데이터를 보여줄 것이다.
+Controller(컨트롤러)
+- 자바스크립트로된 로직 영역
+- 컨트롤러는 서버에서 직접 뷰로 접근하는 일종의 중간 통로로서 필요할 때마다 서버와 클라이언트 통신으로 데이터를 변경한다.
+Scope(스코프)
+- 뷰와 컨트롤러 사이에서 데이터를 연결해주는 역할
+- 모델과 뷰를 감시하고, 컨트롤러에 이벤트를 보내는 역할
+Directive(디렉티브)
+- html을 확장하는 AngularJS의 지시어
+- ex) ng-app, ng-controller, ng-click 등..
+Data Binding(데이터바인딩)
+- 모델과 뷰의 데이터를 실시간으로 연동
+Module(모듈)
+- 모든 자바스크립트 기능들이 ng-app="모듈명" 을 시작으로 모듈 단위로 관리됩니다.
+- 컨트롤러, 서비스, 필터 등을 포함하며, 응용프로그램의 서로 다른 기능을 구성하는 컨테이너 입니다.
+Service(서비스)
+- 특정 기능을 담당하는 객체
+- 싱글톤 객체로 인스턴스가 하나만 존재합니다.
+
+
+ > angluarjs 개발자를 위한 ES6 입문서
+  https://www.timroes.de/using-ecmascript-6-es6-with-angularjs-1-x
+  https://han41858.tistory.com/26
+
+ > angluarjs Template free
+  https://www.begindot.com/best-free-angularjs-admin-templates/
+  https://freehtmldesigns.com/best-free-angularjs-admin-templates/
+
+
+-----------------------------------------------------------------------------------------------------
+>> React  기본 문법
+ > react webpack 핸드북
+    https://typescript-kr.github.io/pages/tutorials/react-&-webpack.html
+
+ > react 개발자를 위한 ES6 입문서
+  https://intrepidgeeks.com/tutorial/es6-for-react-1
+
+
+ > react Template free 
+  https://www.creative-tim.com/templates/react-free
+  https://dev.to/davidepacilio/35-free-react-templates-and-themes-32ci
+
+
+ 
+
+  
+
+
