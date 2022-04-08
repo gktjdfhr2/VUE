@@ -1,13 +1,14 @@
 import React from 'react';
 import './Hello.css';
-function Hello() {
+function Hello(props) {
+    // class Hello extends Component{
    //return (<div><h1>안녕하세요.123</h1></div>)
    const name ="성록";
    return(
        <>
             <button>eirwerwer</button>
             <div>
-                <h2> 리액트 기본 문법 테스트</h2>
+                <h2>{ props.message } 리액트 기본 문법 테스트</h2>
                  <p>반가워요 {/*문자열 */ name }</p>
             </div>
             <div className='gray-div'>
